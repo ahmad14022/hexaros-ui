@@ -1,8 +1,6 @@
 <template>
    <div
-        class="mt-3 
-                md:flex flex-row md:gap-3 
-                sm:grid sm:grid-rows-3 sm:grid-cols-3 sm:gap-x-3"
+        class="flex-row mt-3 md:flex md:gap-3 sm:grid sm:grid-rows-3 sm:grid-cols-3 sm:gap-x-3"
       >
         <div class="sm:row-span-3 sm:col-span-1 md:basis-1/4">
           <Connection/>

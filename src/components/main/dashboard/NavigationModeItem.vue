@@ -1,7 +1,7 @@
 <template>
   <input
     @click="setNavigationMode(navigationMode.name)"
-    class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-blue-primary checked:border-blue-primaryfocus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
+    class="float-left w-4 h-4 mt-1 mr-2 align-top transition duration-200 bg-white bg-center bg-no-repeat bg-contain border border-gray-300 rounded appearance-none cursor-pointer form-check-input checked:bg-blue-primary checked:border-blue-primaryfocus:outline-none"
     type="radio"
     name="navigation-mode"
     :id="navigationMode.id"
@@ -9,7 +9,7 @@
   />
 
   <label
-    class="form-check-label inline-block text-gray-800 text-xs tracking-wider cursor-pointer"
+    class="inline-block text-xs tracking-wider text-gray-800 cursor-pointer form-check-label"
     :for="navigationMode.id"
   >
     {{ navigationMode.name }}
