@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/icons/app/Logo PNG.ico"
+      type="image/x-icon"
+    />
+    <title>AGV HexaRos</title>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="assets/font/poppin.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+
+  <body>
+    <noscript>
+      <strong
+        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
+    </noscript>
+    <div id="app"></div>
+
+       <!-- ROS Libraries -->
+       <script type="text/javascript" src="assets/js/ros/easeljs.min.js"></script>
+       <script type="text/javascript" src="assets/js/ros/eventemitter2.min.js"></script>
+       <script>
+           const emitter = new EventEmitter2();
+       </script>
+       <script type="text/javascript" src="assets/js/ros/roslib.js"></script>
+       <script type="text/javascript" src="assets/js/ros/ros2d.js"></script>
+       <script type="text/javascript" src="assets/js/ros/nav2d.js"></script>
+       <!-- <script type="text/javascript" src="assets/js/ros/go-to-named-waypoint.js"></script>
+       <script type="text/javascript" src="assets/js/ros/go-to-coordinates.js"></script>
+       <script type="text/javascript" src="assets/js/ros/robot-driver.js"></script> -->
+       <!-- NippleJS / Joystick-->
+       <script src="assets/js/joystick/nipplejs.js"></script>
+       <!-- Vue JS-->
+       <script src="assets/js/vue3/vue.global.js"></script>
+       <script src="assets/js/vue3/vue-router.global.js"></script>
+       <script src="assets/js/vue3/vuex.global.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.30/vue.global.min.js"></script>
+       <!-- Tailwind -->
+       <script src="assets/js/tailwind/tailwind.js"></script>
+       <script src="assets/js/tailwind/tailwind.config.js"></script>
+
+  </body>
+</html>
